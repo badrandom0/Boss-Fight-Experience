@@ -107,3 +107,24 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+
+
+# 2. Python 项目忽略规则（咱们自己加的）
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 3. 操作系统 & 编辑器配置文件（咱们自己加的）
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 4. 实验数据（咱们自己加的）/
+# 暂时先不忽略 csv，让你们能传一点测试数据上去。
+# 等后面数据太大（超过100MB）或者有真人玩家数据时，
+# 可以在下面加上 data/*.csv
